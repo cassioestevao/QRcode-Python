@@ -19,11 +19,11 @@ class GeradorQRCode(tk.Frame):
         self.campo_texto = tk.Entry(self.master, textvariable=self.texto_qrcode)
         self.campo_texto.pack()
 
+        self.imagem_qrcode = tk.Label(self.master,bg="purple")
+        self.imagem_qrcode.pack()
+
         self.botao = tk.Button(self.master,bg="purple",fg="white",text="Gerar QR Code", command=self.gerar_qrcode)
         self.botao.pack()
-
-        self.imagem_qrcode = tk.Label(self.master)
-        self.imagem_qrcode.pack()
 
     def gerar_qrcode(self):
       
