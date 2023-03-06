@@ -7,7 +7,7 @@ class GeradorQRCode(tk.Frame):
         super().__init__(master)
         self.master = master
         self.master.title("Projeto - Cássio Estevão")
-        self.master.geometry("450x450")
+        self.master.geometry("450x520")
         self.master.configure(bg="purple")
         self.master.resizable(False,False)
         self.texto_qrcode = tk.StringVar()
