@@ -5,6 +5,8 @@
 # Decodificador de QR Code
 
 Este é um projeto de decodificador de QR Code em Python. Com este programa, você pode escanear um QR Code e obter o texto ou a informação contida nele.
+<img src="url_da_imagem_do_logo_qrcode" alt="Logo QR Code" width="150">
+
 
 ## Funcionalidades
 
