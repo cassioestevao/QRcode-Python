@@ -28,6 +28,7 @@ class GeradorQRCode(ctk.CTkFrame):
 
         self.botao = ctk.CTkButton(self.master,
                                    bg_color= 'purple',
+                                   text='Gerar QRcode',
                                    hover_color='black',
                                    fg_color='white',
                                    text_color='purple', 
